@@ -138,16 +138,25 @@
 ### 16. (기본공식) 부정적분 중요 공식
 
 **1단계 (What)**
-* **계산:** 적분의 기초 뼈대가 되는 핵심 공식 9가지입니다.
-  1. $\int x^n dx = \frac{x^{n+1}}{n+1} + C$ (예: $\int x^2 dx = \frac{x^3}{3} + C$)
-  2. $\int \frac{1}{x} dx = \ln|x| + C$
-  3. $\int e^x dx = e^x + C$
-  4. $\int \sin x dx = -\cos x + C$ (예: $\int \sin(2x) dx = -\frac{1}{2}\cos(2x) + C$)
-  5. $\int \cos x dx = \sin x + C$
-  6. $\int \sec^2 x dx = \tan x + C$
-  7. $\int \sec x \tan x dx = \sec x + C$
-  8. $\int \frac{1}{1+x^2} dx = \tan^{-1} x + C$
-  9. $\int \frac{1}{\sqrt{1-x^2}} dx = \sin^{-1} x + C$
+* **계산:** 적분의 기초 뼈대가 되는 핵심 공식 9가지와 각각의 예시입니다.
+  1. 다항함수: $\int x^n\,dx = \frac{x^{n+1}}{n+1} + C$ (단, $n \ne -1$) 
+     * 예: $\int x^3\,dx = \frac{x^4}{4} + C$
+  2. 유리함수: $\int \frac{1}{x}\,dx = \ln|x| + C$
+     * 예: $\int \frac{3}{x}\,dx = 3\ln|x| + C$
+  3. 지수함수: $\int e^x\,dx = e^x + C$
+     * 예: $\int e^{5x}\,dx = \frac{1}{5}e^{5x} + C$
+  4. 사인함수: $\int \sin x\,dx = -\cos x + C$
+     * 예: $\int \sin(2x)\,dx = -\frac{1}{2}\cos(2x) + C$
+  5. 코사인함수: $\int \cos x\,dx = \sin x + C$
+     * 예: $\int \cos(3x)\,dx = \frac{1}{3}\sin(3x) + C$
+  6. 시컨트제곱: $\int \sec^2 x\,dx = \tan x + C$
+     * 예: $\int \sec^2(4x)\,dx = \frac{1}{4}\tan(4x) + C$
+  7. 시컨트탄젠트: $\int \sec x \tan x\,dx = \sec x + C$
+     * 예: $\int 2\sec x \tan x\,dx = 2\sec x + C$
+  8. 역탄젠트 꼴: $\int \frac{1}{1+x^2}\,dx = \tan^{-1} x + C$
+     * 예: $\int \frac{5}{1+x^2}\,dx = 5\tan^{-1} x + C$
+  9. 역사인 꼴: $\int \frac{1}{\sqrt{1-x^2}}\,dx = \sin^{-1} x + C$
+     * 예: $\int \frac{10}{\sqrt{1-x^2}}\,dx = 10\sin^{-1} x + C$
 * **근거 설명:** 미분 공식을 거꾸로 재생하여 원래의 함수(원시함수)를 복원해 내는 역연산 규칙들입니다.
 
 **2단계 (So What)**
